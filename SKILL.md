@@ -96,6 +96,8 @@ filter 參數：`searchType`(batter/pitcher)、`gameKind`(A~X)、`year`、`month
 
 ⚠️ 注意：pitch-tracking 的 `--type` 不影響結果（預設即投手球種資料）；searchType 只對 exit-velocity/batted-ball/pr-table 有意義。
 
+⚠️ 進階數據站只收錄「現役 CPBL 球員」：已旅外（如徐若熙→日職軟銀 2026）、退休、整季未出賽的球員 autocomplete 找不到，屬正常。找不到人時先懷疑旅外/退休，別當資料壞了。
+
 ## Live score notes
 
 - Live data is polled from the official source and is not push-based.
